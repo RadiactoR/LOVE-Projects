@@ -12,7 +12,7 @@ function love.load()
   blue = 255
 
   --brick variables
-  numberOfBricks = 30
+  numberOfBricks = 39
   brickWidth = 50
   brickHeight = 10
   xPos = 10
@@ -105,7 +105,7 @@ function love.update(dt)
     ballSpeedY = ballSpeedY * -1
   end
   
-  --respawn ball (if bugged out)
+  --respawn ball command (cheating!!)
   if love.keyboard.isDown("r") then
     ballX = 100
     ballY = 200
